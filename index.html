@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Priti Rani – The Real Hero of Our Family</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fffafc;
+color:#333;
+line-height:1.8;
+}
+
+.hero{
+
+height:100vh;
+position:relative;
+overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+
+}
+
+.slideshow{
+
+position:absolute;
+width:100%;
+height:100%;
+z-index:-2;
+
+}
+
+.slide{
+
+position:absolute;
+width:100%;
+height:100%;
+background-size:cover;
+background-position:center;
+opacity:0;
+animation:fade 25s infinite;
+
+}
+
+.slide:nth-child(1){
+background-image:url(images/hero1.jpg);
+animation-delay:0s;
+}
+
+.slide:nth-child(2){
+background-image:url(images/hero2.jpg);
+animation-delay:5s;
+}
+
+.slide:nth-child(3){
+background-image:url(images/hero3.jpg);
+animation-delay:10s;
+}
+
+.slide:nth-child(4){
+background-image:url(images/hero4.jpg);
+animation-delay:15s;
+}
+
+.slide:nth-child(5){
+background-image:url(images/hero5.jpg);
+animation-delay:20s;
+}
+
+.hero::after{
+
+content:'';
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.55);
+
+z-index:-1;
+
+}
+
+@keyframes fade{
+
+0%{opacity:0;}
+5%{opacity:1;}
+20%{opacity:1;}
+25%{opacity:0;}
+100%{opacity:0;}
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+}
+
+.hero p{
+
+font-size:28px;
+margin:15px 0;
+
+}
+
+.btn{
+
+padding:15px 35px;
+background:#ff4f81;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-size:20px;
+transition:.4s;
+
+}
+
+.btn:hover{
+
+background:white;
+color:#ff4f81;
+
+}
+
+section{
+
+padding:90px 10%;
+
+}
+
+h2{
+
+font-size:40px;
+color:#d6336c;
+margin-bottom:30px;
+text-align:center;
+
+}
+
+.text{
+
+max-width:900px;
+margin:auto;
+font-size:20px;
+text-align:center;
+
+}
+
+.gallery{
+
+column-count:3;
+column-gap:18px;
+
+}
+
+.gallery img{
+
+width:100%;
+margin-bottom:18px;
+border-radius:15px;
+cursor:pointer;
+transition:.5s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+.lightbox{
+
+position:fixed;
+left:0;
+top:0;
+width:100%;
+height:100%;
+display:none;
+justify-content:center;
+align-items:center;
+background:rgba(0,0,0,.9);
+
+}
+
+.lightbox img{
+
+max-width:90%;
+max-height:90%;
+border-radius:15px;
+
+}
+
+footer{
+
+background:#d6336c;
+color:white;
+padding:60px;
+text-align:center;
+font-size:22px;
+
+}
+
+.quote{
+
+font-style:italic;
+font-size:24px;
+margin-top:20px;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.gallery{
+
+column-count:1;
+
+}
+
+h2{
+
+font-size:32px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<div class="slideshow">
+
+<div class="slide"></div>
+<div class="slide"></div>
+<div class="slide"></div>
+<div class="slide"></div>
+<div class="slide"></div>
+
+</div>
+
+<div>
+
+<h1>Priti Rani</h1>
+
+<p>The Strongest Mother & The Bravest Woman</p>
+
+<a href="#journey" class="btn">
+Read Her Journey ❤️
+</a>
+
+</div>
+
+</div>
+
+<section id="journey">
+
+<h2>❤️ Love Story</h2>
+
+<div class="text">
+
+<p>
+
+Har khubsurat kahani ek muskaan se shuru hoti hai…
+
+<br><br>
+
+Photos mein dikhne wale har pal se ek baat saaf nazar aati hai—tumhare mummy aur papa ek dusre ke saath khush rehte the.
+
+Anniversary ki photo ho, Holi ka din ho ya kisi function ki tasveer, unke chehre ki muskaan unke pyaar aur apnapan ko dikhati hai.
+
+<br><br>
+
+Tumhari mummy ne sirf ek wife ka farz nahi nibhaya,
+
+balki har mushkil mein apne jeevan saathi ka haath thaam kar saath diya.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>💔 The Difficult Journey</h2>
+
+<div class="text">
+
+<p>
+
+2023 mein jab papa ki tabiyat achanak kharab hui,
+
+tab hamari zindagi badal gayi.
+
+<br><br>
+
+Baad mein doctors ne bataya ki papa ko Brain Tumour tha.
+
+Papa ko apni bimari ki poori sachchai ka pata nahi tha.
+
+Lekin mummy ko sab pata tha…
+
+<br><br>
+
+Fir bhi unhone kabhi papa ko udaas nahi hone diya.
+
+<br><br>
+
+✔ Time se medicines
+
+<br>
+
+✔ Time se khana
+
+<br>
+
+✔ Hospital visits
+
+<br>
+
+✔ Har pal care
+
+<br>
+
+✔ Har pal pyaar
+
+<br><br>
+
+Apna dard chhupa kar sirf papa ki muskaan bachane ki koshish karti rahi.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🕊 15 June 2024</h2>
+
+<div class="text">
+
+<p>
+
+Ye hamari zindagi ka sabse dard bhara din tha.
+
+<br><br>
+
+15 June 2024…
+
+Papa hamesha ke liye hume chhod kar chale gaye.
+
+<br><br>
+
+Us din mummy toot gayi…
+
+Lekin sirf andar se.
+
+<br><br>
+
+Bahar se woh fir bhi hamare liye mazboot bani rahi.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🌺 A Brave Mother</h2>
+
+<div class="text">
+
+<p>
+
+Aaj bhi mummy…
+
+<br><br>
+
+Subah sabse pehle uthti hain.
+
+<br>
+
+Hamare future ke baare mein sochti hain.
+
+<br>
+
+Hamari padhai sambhalti hain.
+
+<br>
+
+Har zarurat poori karti hain.
+
+<br>
+
+Aur kabhi mehsoos nahi hone deti ki hamne kitna bada nuksan dekha hai.
+
+<br><br>
+
+Yehi hoti hai…
+
+<br><br>
+
+<b>A Real Mother.</b>
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>📸 Memory Gallery</h2>
+
+<div class="gallery">
+
+<img src="images/hero1.jpg">
+<img src="images/hero2.jpg">
+<img src="images/hero3.jpg">
+<img src="images/hero4.jpg">
+<img src="images/hero5.jpg">
+
+</div>
+
+</section>
+
+<section>
+
+<h2>❤️ Message From Son</h2>
+
+<div class="text">
+
+<p>
+
+Dear Mummy,
+
+<br><br>
+
+Main jaanta hoon ki aapne kitna dard saha hai.
+
+Papa ke bina rehna kitna mushkil hai,
+
+Lekin fir bhi aap kabhi hamare saamne kamzor nahi padi.
+
+<br><br>
+
+Main promise karta hoon…
+
+Ek din aapko duniya ki har khushi dunga.
+
+<br><br>
+
+Papa jahan bhi honge,
+
+Aaj bhi aap par garv karte honge.
+
+Aur main bhi.
+
+<br><br>
+
+<b>
+
+Love You Mummy ❤️
+
+</b>
+
+<br><br>
+
+— Samarth Rajput
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2 style="color:white;">🌹 Ending Quote</h2>
+
+<div class="quote">
+
+"Ek aurat tab sabse zyada mazboot hoti hai jab uska dil toot chuka hota hai, lekin phir bhi woh apne bachchon ke liye muskurana nahi chhodti."
+
+<br><br>
+
+❤️ Priti Rani ❤️
+
+</div>
+
+</footer>
+
+<div class="lightbox" id="lightbox">
+
+<img id="lightbox-img">
+
+</div>
+
+<script>
+
+const images=document.querySelectorAll(".gallery img");
+const lightbox=document.getElementById("lightbox");
+const light=document.getElementById("lightbox-img");
+
+images.forEach(img=>{
+
+img.onclick=()=>{
+
+lightbox.style.display="flex";
+light.src=img.src;
+
+}
+
+})
+
+lightbox.onclick=()=>{
+
+lightbox.style.display="none";
+
+}
+
+</script>
+
+</body>
+</html>
